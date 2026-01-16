@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Anime Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎌 My Anime Catalog</h1>
+
+<input type="text" id="search" placeholder="Search anime...">
+
+<div id="filters">
+  <button onclick="filterGenre('all')">All</button>
+  <button onclick="filterGenre('Action')">Action</button>
+  <button onclick="filterGenre('Romance')">Romance</button>
+  <button onclick="filterGenre('Sports')">Sports</button>
+</div>
+
+<div class="grid" id="animeGrid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
